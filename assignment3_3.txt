@@ -1,0 +1,47 @@
+1. Test whether two vectors are exactly equal (element by element).
+vec1 = c(rownames(mtcars[1:15,]))
+vec2 = c(rownames(mtcars[11:25,]))
+   Ans:
+     >vec1==vec2
+
+
+2. Sort the character vector in ascending order and descending order.
+vec1 = c(rownames(mtcars[1:15,]))
+vec2 = c(rownames(mtcars[11:25,]))
+   Ans:
+      ###for ascending order 
+     >sort(vec1,decreasing = F)  
+     >sort(vec1,decreasing = F) 
+    
+    ####for dscending order 
+     >sort(vec1,decreasing = T)  
+     >sort(vec1,decreasing = T) 
+
+
+3. What is the major difference between str() and paste() show an example.
+    Ans:
+      by using str() function we can find the structute of the dataframe like
+      number of observations,number of varible i.e(columns),
+      class of varibles etc..
+     Example:
+          str(mtcars)
+              AND
+      By using paste() function we can concatenate vectots.
+     Example:
+        >paste("acad","gild")
+      result: "acad gild"
+       ##if white space is not required
+        >paste0("acad","gild")
+      result:"acadgild"
+      
+4. Introduce a separator when concatenating the strings.
+    Ans:
+        >paste("acad","gild",sep"_")
+        result:acad_gild
+
+
+
+
+
+
+
